@@ -1,3 +1,6 @@
+import {Shape} from "./shape"
+
+
 function circle(radius: number): Shape {
     return {
         computeArea: function (): number {
