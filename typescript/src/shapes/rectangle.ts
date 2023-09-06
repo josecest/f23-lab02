@@ -8,7 +8,6 @@ function newRectangle(width: number, height: number): Rectangle {
     return {
         width,
         height,
-
         computeArea: function (): number {
             return width * height
         }
